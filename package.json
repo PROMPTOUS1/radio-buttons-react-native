@@ -32,5 +32,8 @@
   "homepage": "https://github.com/sramezani/radio-buttons-react-native#readme",
   "directories": {
     "example": "example"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^8.0.0"
   }
 }
