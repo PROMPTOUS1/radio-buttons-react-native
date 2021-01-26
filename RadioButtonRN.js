@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StyleSheet, View, Text, Animated, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 class RadioButtonRN extends React.Component {
@@ -175,6 +176,11 @@ class RadioButtonRN extends React.Component {
                                     {item.label}
                                 </Text>
                             </View>
+                            <Icon
+                                name={item.icon}
+                                color='#000'
+                                size={20}
+                            />
                         </TouchableOpacity>
                     )
                 })
